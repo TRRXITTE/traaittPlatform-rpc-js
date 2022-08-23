@@ -1,0 +1,52 @@
+{
+  "name": "@trrxitte/traaittplatform-rpc",
+  "version": "2.0.3",
+  "description": "traaittPlatform RPC API Interface in NodeJS",
+  "main": "index.js",
+  "files": [
+    "dist/traaittPlatformRPC.js",
+    "lib/*"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "standard",
+    "build-docs": "jsdoc -c jsdoc.json",
+    "prepare": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trrxitte/traaittplatform-rpc-js.git"
+  },
+  "keywords": [
+    "traaittPlatform",
+    "RPC",
+    "API"
+  ],
+  "author": "TRRXITTE Int., incorporate",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/trrxitte/traaittplatform-rpc-js/issues"
+  },
+  "homepage": "https://github.com/trrxitte/traaittplatform-rpc-js#readme",
+  "standard": {
+    "ignore": [
+      "dist/*",
+      "docs/*"
+    ]
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  }
+}
